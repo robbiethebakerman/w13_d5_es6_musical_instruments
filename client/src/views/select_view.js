@@ -1,6 +1,6 @@
 const PubSub = require('../helpers/pub_sub.js');
 
-class SelectView {
+export default class SelectView {
   constructor(element) {
     this.element = element;
   };
@@ -28,5 +28,3 @@ class SelectView {
   };
 
 };
-
-module.exports = SelectView;
